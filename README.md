@@ -10,7 +10,11 @@ Desafio de projeto, explorando padrões de projetos com Java e Orientação a Ob
 
 ### Algumas fotos do código :
 
+<a href="https://ibb.co/RTgxpwV">
+  <img height="400" src="https://i.ibb.co/s9g0vYM/Screenshot-20220308-143022.png" alt="Screenshot-20220308-143022" border="0" /></a>
 
+<a href="https://ibb.co/YcXfYC2">
+  <img height="400" src="https://i.ibb.co/QPkYzg9/Screenshot-20220308-143003.png" alt="Screenshot-20220308-143003" border="0" /></a>
 
 ---
 
