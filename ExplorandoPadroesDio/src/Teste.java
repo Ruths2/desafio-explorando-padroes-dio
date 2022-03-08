@@ -1,4 +1,3 @@
-import java.util.*;
 import one.digitalinnovation.gof.SingletonLazy;
 import one.digitalinnovation.gof.SingletonEager;
 import one.digitalinnovation.gof.SingletonLazyHolder;
