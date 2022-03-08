@@ -6,12 +6,13 @@ import one.digitalinnovation.gof.strategy.ComportamentoNormal;
 import one.digitalinnovation.gof.strategy.ComportamentoDefensivo;
 import one.digitalinnovation.gof.strategy.ComportamentoAgressivo;
 import one.digitalinnovation.gof.strategy.Robo;
+import one.digitalinnovation.gof.facade.Facade;
 
 public class Teste {
 	
 	public static void main(String[] args) {
       
-      // Singleton
+      // *** Singleton ***
       
       /*SingletonLazy lazy = SingletonLazy.getInstancia();
       System.out.println(lazy);
@@ -28,9 +29,9 @@ public class Teste {
       lazyHolder = SingletonLazyHolder.getInstancia();
       System.out.println(lazyHolder);*/
       
-      // Strategy
+      // *** Strategy ***
       
-      Comportamento normal = new ComportamentoNormal();
+      /*Comportamento normal = new ComportamentoNormal();
       Comportamento defensivo = new ComportamentoDefensivo();
       Comportamento agressivo = new ComportamentoAgressivo();
       
@@ -46,8 +47,12 @@ public class Teste {
       robo.setComportamento(agressivo);
       robo.mover();
       robo.mover();
-      robo.mover();
+      robo.mover();*/
       
+      // *** Facade ***
+      
+      Facade facade = new Facade();
+      facade.migrarCliente("Venilton", "14801788");
       
     }
 }
